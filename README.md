@@ -1,4 +1,4 @@
-# Titanic_example
+# Titanic Example - Python
 
 This repository contains files I created, using Python 2 and Jupyter Notebook, to predict survivors of the sinking of the Titanic (https://www.kaggle.com/c/titanic). The datasets required to run the file are included. There are seven scripts, each of which appears in the three following formats:
 
