@@ -3,7 +3,7 @@
 This repository contains files I created, using Python 2 and Jupyter Notebook, to predict survivors of the sinking of the Titanic (https://www.kaggle.com/c/titanic). The datasets required to run the file are included. There are seven scripts, each of which appears in the three following formats:
 
 * .ipynb - Python Notebook file, which includes some very basic commenting and markdown formatting
-* .html  - HTML outbook of Python notebook
+* .html  - HTML output of Python notebook
 * .py    - Raw Python script, without markdown coding
 
 The seven scripts are as follows:
