@@ -15,3 +15,7 @@ The seven scripts are as follows:
 * Final_setup_Logit - Implements Logit Classifier, in a manner similar to that of the SVM
 * Final_setup_NB - Implements Naive Bayes Classifier
 * Final_ensemble - Inputs predictions from the 5 base learning algorithms on an extra test set (extracted from the initial input training set), implements a Gradient Boosting Classifier on these predictions, and uses the results to produce a final prediction for the test set submitted to Kaggle.
+
+Note: For GBoost and Random Forest algorithms, a forward-stepwise parameter search was used. This would not be the optimal way to search for the parameters (In R, I would likely use the expandGrid x TuneGrid approach in the caret package, so I could compare both within and across parameters), but felt it would be sufficient to show as an example of Python programming. 
+
+Additionally, the Naive Bayes classifier actually performs so poorly that its use lowers the predictiveness of this model; again, I included it here as an example of a type of algorithm I could implement in Python, and incorporate into a larger ensemble model.
